@@ -1,21 +1,98 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8" />
+  <head>
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body class="min-h-screen">
-    <div class="bg-gray-900">      
-        <div class="relative isolate overflow-hidden min-h-screen">
-          <img src="/assets/image.png" alt="" class="absolute inset-0 -z-10 h-full w-full object-cover">
-          <div class="mx-auto max-w-2xl py-32">
-            <div class="text-center">
-              <h1 class="text-4xl font-extrabold tracking-tight text-black sm:text-6xl">SİNEKLERİN YASASI</h1>
-            </div>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Margarine&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              "hanken-grotesk": ["Margarine", "sans-serif"],
+            },
+            fontSize: {
+              "2xs": ".625rem",
+              "xxl": "8rem",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="min-h-screen font-hanken-grotesk">
+    <div class="bg-gray-900">
+      <div class="relative isolate overflow-hidden min-h-screen w-full grid sm:grid-cols-2">
+        <img
+          src="/assets/image.png"
+          alt=""
+          class="absolute inset-0 -z-10 h-full w-full object-cover"
+        />
+        <span
+              class="text-xs mx-10 mt-20 text-center sm:hidden font-extrabold tracking-tight text-red-600 sm:text-sm"
+            >
+              Hayattaki en büyük korkusu eğittiği at sineklerini kaybetmek olan
+              İlyas, oğlu Basri’nin de kendisi gibi sinekleri eğiterek hileli
+              kumar oynatan bir adam olmasını ister. Basri ise suçun her saniye
+              kol gezdiği bu dünyada temiz kalmaya çalışan ve gerçek aile
+              ilişkilerine hayranlık duyan bir gençtir. Babası ve mahallenin
+              serserileri tarafından zorbalığa maruz kalan Basri, kocaman bir
+              sineklik gibi duran bu mahalleden gitme hayalleri kurmaya
+              başladığı zamanlarda kendisinden yaşça büyük kız arkadaşı
+              Cennet’in hamile olduğunu öğrenir. Böyle bir hamileliğin başlarına
+              getireceği belaların farkında olan Basri ve Cennet, çocuğu
+              düşürmek için her yolu dener ancak başarılı olamaz. Basri baba
+              olmak istediğini fark ettiğinde Cennet ile gerçek bir aile olmaya
+              karar verirler. Basri, kendisini bir baba olarak görmekte ve
+              ailesi için cesurca kararlar almak zorundadır.
+            </span>
+        <div
+          class="max-w-3xl sm:mt-64 mb-32 sm:mb-0 sm:ml-20 mx-8 sm:mx-0 self-end sm:self-center"
+        >
+          <div class="text-center sm:text-start">
+            <h1
+              class="text-6xl font-extrabold tracking-tight text-red-800 sm:text-xxl"
+            >
+              SİNEKLERİN
+            </h1>
+            <h1
+              class="text-6xl font-extrabold tracking-tight text-white sm:text-xxl"
+            >
+              YASASı
+            </h1>
+          </div>
+        </div>
+        <div
+          class="hidden sm:flex max-w-xl sm:mt-32 mb-32 sm:mb-0 sm:ml-36 mx-8 sm:mx-0 self-end sm:self-start"
+        >
+          <div class="text-start">
+            <span
+              class="text-xs font-extrabold tracking-tight text-red-600 sm:text-sm"
+            >
+              Hayattaki en büyük korkusu eğittiği at sineklerini kaybetmek olan
+              İlyas, oğlu Basri’nin de kendisi gibi sinekleri eğiterek hileli
+              kumar oynatan bir adam olmasını ister. Basri ise suçun her saniye
+              kol gezdiği bu dünyada temiz kalmaya çalışan ve gerçek aile
+              ilişkilerine hayranlık duyan bir gençtir. Babası ve mahallenin
+              serserileri tarafından zorbalığa maruz kalan Basri, kocaman bir
+              sineklik gibi duran bu mahalleden gitme hayalleri kurmaya
+              başladığı zamanlarda kendisinden yaşça büyük kız arkadaşı
+              Cennet’in hamile olduğunu öğrenir. Böyle bir hamileliğin başlarına
+              getireceği belaların farkında olan Basri ve Cennet, çocuğu
+              düşürmek için her yolu dener ancak başarılı olamaz. Basri baba
+              olmak istediğini fark ettiğinde Cennet ile gerçek bir aile olmaya
+              karar verirler. Basri, kendisini bir baba olarak görmekte ve
+              ailesi için cesurca kararlar almak zorundadır.
+            </span>
           </div>
         </div>
       </div>
-      
-</body>
+    </div>
+  </body>
 </html>
